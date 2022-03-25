@@ -59,6 +59,24 @@ body {
   font-size: 1.2rem;
 }
 
+/* LINKS */
+#mygithub-link {
+  text-decoration: none;
+}
+
+#mygithub-link:link {
+  color: #88d;
+}
+#mygithub-link:visited {
+  color: #99a;
+}
+#mygithub-link:hover {
+  color: #66d;
+}
+#mygithub-link:active {
+  color: #77e;
+}
+
 @media (max-width: 500px) {
   #main-container {
     width: 90%;
