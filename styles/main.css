@@ -1,0 +1,79 @@
+/*
+  Styles to use
+  for the page.
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background: #44a08d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #093637,
+    #44a08d
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #093637,
+    #44a08d
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* MAIN CONTAINER */
+#main-container {
+  margin: 3rem auto 10rem;
+  width: 50%;
+}
+
+/* COLOR FOR EACH CARD */
+.card {
+  background-color: #388;
+}
+
+/* VALIDATE BUTTON */
+.validate-button {
+  width: 50%;
+}
+
+/* MAIN FOOTER */
+#main-footer {
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #414345,
+    #232526
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #414345,
+    #232526
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-size: 1.2rem;
+}
+
+@media (max-width: 500px) {
+  #main-container {
+    width: 90%;
+  }
+  .validate-button {
+    width: 100%;
+  }
+}
+@media (max-width: 700px) {
+  #main-container {
+    width: 90%;
+  }
+}
+@media (max-width: 900px) {
+  #main-container {
+    width: 90%;
+  }
+}

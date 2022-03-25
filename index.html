@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="questions Questions question Question App" />
+    <title>Questions App</title>
+    <!-- FONTAWESOME ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- BOOTSTRAP STYLES -->
+    <link rel="stylesheet" href="./styles/bootstrap.min.css" />
+    <!-- MY STYLES -->
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <!-- CONTAINER -->
+    <div class="container" id="main-container">
+      <section id="alerts"></section>
+      <h2 class="text-white text-center">
+        Questions
+        <i class="fa-solid fa-question"></i>
+      </h2>
+      <hr class="text-white" />
+      <!-- NOTE VIEW -->
+      <h3 class="text-white text-center mb-5">
+        Note
+        <span id="note"></span><span id="total"></span>
+      </h3>
+
+      <!-- QUESTIONS VIEW -->
+      <section id="questions-view"></section>
+      <a href="#note" class="btn btn-secondary">View Note</a>
+    </div>
+
+    <!-- MAIN FOOTER -->
+    <footer class="p-2" id="main-footer">
+      <p class="text-white text-center">
+        2022
+        <i class="fa-regular fa-calendar-check"></i>
+      </p>
+      <p class="text-white text-center">
+        Made for
+        <a
+          href="https://github.com/EduardYan/"
+          target="_blank"
+          rel="noreferrer"
+          style="text-decoration: none"
+          >Eduard</a
+        >
+      </p>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="./js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./js/app.js" type="module"></script>
+  </body>
+</html>
