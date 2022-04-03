@@ -1,0 +1,4 @@
+#!/bin/bash
+# Script to execute the questions app with firefox browser
+
+firefox /root/questions-app/index.html
