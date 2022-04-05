@@ -1,5 +1,6 @@
-# ignore git
+# Ignore git
 .gitignore
 
-# documentation
+# Documentation
 README.md
+/doc

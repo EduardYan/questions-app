@@ -1,0 +1,4 @@
+#!/bin/bash
+# Script to use for set some configurations
+
+pcmanfm -w /usr/local/share/mybackgrounds/gaming.jpg --wallpaper-mode crop
