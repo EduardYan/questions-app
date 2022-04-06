@@ -1,4 +1,4 @@
 #!/bin/bash
 # Script to execute the questions app with firefox browser
 
-firefox /root/questions-app/index.html
+google-chrome --no-sandbox /root/questions-app/index.html
