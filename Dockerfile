@@ -2,7 +2,5 @@ FROM nginx
 
 MAINTAINER Daniel Yanes
 
-# # Copy all code
-# COPY . .
-
+# Copy the static files to nginx server
 COPY . /usr/share/nginx/html

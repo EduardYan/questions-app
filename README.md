@@ -7,14 +7,11 @@ __You can view the app using docker, with a nginx server with the static files f
 
 
 ```bash
-$ docker run -p 6080:80 -d eduarddan/questions-web-app
+$ docker run -p 80:80 -d eduarddan/questions-web-app
 ```
 
-Now you can visit this direction of the some browser like Chrome <a href="http://localhost:6080" target="_blank" rel="noreferrer">http://localhost:6080/</a>
+Now you can visit this direction of the some browser like Chrome <a href="http://localhost" target="_blank" rel="noreferrer">http://localhost</a>
 
-And make this:
-
-![video](./doc/videos/video.gif)
 
 ## Screenshot.
 ![screenshot](./doc/screenshots/principal.png)
