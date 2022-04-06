@@ -1,14 +1,17 @@
 # HTML Questions App.
 
-__A small app for answer questions from the browser, using HTML, Javascript, Bootstrap 5 for styles and icons from Fontawesome.__
+A small app for answer __questions from the browser__, using HTML, Javascript, Bootstrap 5 for styles and icons from Fontawesome.
 
 # View App using Docker.
-__You can view the app using docker, with a no-vnc server. Using a image with Ubuntu and lxde like
-desktop enviroment. And executing the app with Chrome.__
+You can view the app using docker, with a no-vnc server. Using a image with Ubuntu and lxde like
+desktop enviroment. And executing the app with Chrome.
+
+The Dockerfile is in this proyect and you can build a image and run a container.
 
 
 ```bash
-$ docker run -p 6080:80 -d eduarddan/questions-web-app
+$ docker build -t questions-web-app .  # building
+$ docker run -p 6080:80 ---name myapp questions-web-app # executing
 ```
 
 Now you can visit this direction of the some browser like Chrome <a href="http://localhost:6080" target="_blank" rel="noreferrer">http://localhost:6080/</a>
