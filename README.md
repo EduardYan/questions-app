@@ -13,6 +13,8 @@ $ docker run -p 6080:80 -d eduarddan/questions-web-app
 
 Now you can visit this direction of the some browser like Chrome <a href="http://localhost:6080" target="_blank" rel="noreferrer">http://localhost:6080/</a>
 
+And make this:
+
 ![video](./doc/videos/video.gif)
 
 ## Screenshot.
