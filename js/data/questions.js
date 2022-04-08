@@ -1,6 +1,5 @@
 /**
- * This module have the questions
- * data.
+ * This module have the questions to use.
  */
 
 import { Question } from "../models/question.js";
