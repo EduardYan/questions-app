@@ -1,6 +1,5 @@
 /**
- * This module have the questions
- * data.
+ * This module have the questions to show
  */
 
 import { Question } from "../models/question.js";
@@ -27,7 +26,7 @@ const questions = [
   },
 ];
 
-// converting to objects
+// converting to objects to use
 export const questions_objects = questions.map(
   (question) =>
     new Question(question.id, question.toAsk, question.options, question.answer)
