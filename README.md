@@ -1,10 +1,10 @@
 # HTML Questions App.
 
-**A small app for answer questions from the browser, using HTML, Javascript, Bootstrap 5 for styles and icons from Fontawesome.**
+__A small app for answer questions from the browser, using HTML, Javascript, Bootstrap 5 for styles and icons from Fontawesome.__
 
 ## View App using Docker.
 
-**You can view the app using docker, with a nginx server with the static files for the app.**
+You can view the app using docker, with a nginx server with the static files for the app.
 
 ```bash
 $ docker run -p 80:80 -d --name myapp eduarddan/questions-web-app
