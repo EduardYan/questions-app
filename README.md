@@ -18,7 +18,9 @@ Now you can visit this direction of the some browser like Chrome <a href="http:/
 
 And make this:
 
-![video](./doc/videos/video.gif)
+<video>
+  <source src="./doc/videos/video.mp4" type="video/mp4">
+</video>
 
 ---
 
