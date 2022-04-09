@@ -18,7 +18,16 @@ Now you can visit this direction of the some browser like Chrome <a href="http:/
 
 And make this:
 
-![video](./doc/videos/video.gif)
+1. Open lxterminal and execute the config file:
+
+```bash
+$ config
+```
+
+2. Now execute for open the app using Chrome:
+```bash
+$ questions-app
+```
 
 ---
 
