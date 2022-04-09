@@ -3,8 +3,8 @@ FROM dorowu/ubuntu-desktop-lxde-vnc
 MAINTAINER Daniel Yanes
 
 # Updating the system
-# RUN apt-get update \
-#     && apt-get upgrade -y
+RUN apt-get update \
+    && apt-get upgrade -y
 
 # Adding binaries to execute
 ADD build/bin/ /usr/bin
